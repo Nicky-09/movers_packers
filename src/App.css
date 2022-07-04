@@ -15,10 +15,10 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  /* min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: center; */
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
@@ -35,4 +35,34 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+
+
+
+
+.pods-logo {
+  margin-top: 130px;
+
+  @media screen and (max-height: 650px) {
+    & {
+      margin-top: 50px;
+    }
+  }
+}
+
+.app-title {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin: 0;
+}
+
+.kumble-container {
+  padding: 0px;
+  width: 100%;
+  
 }
